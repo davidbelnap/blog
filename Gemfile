@@ -2,6 +2,14 @@ source 'https://rubygems.org'
 ruby '2.4.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# SEMVER -major, minor, patch
+# MAJOR - breaking changes
+# MINOR - backwards compat - smaller changes to the gem
+# PATCH - backwards compat - typo changes or readme adds or reallyl really small changes
+
+# ~> - minor patch pen = ONLY UPDATE MINOR AND PATCH VERSIONS
+# strict pin = NEVER UPDATE
+# lteq gteq pin =
 gem 'rails', '~> 5.1.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
